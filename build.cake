@@ -11,7 +11,7 @@ Task("Build")
 {
     var settings = new DotNetCoreBuildSettings
     {
-        Configuration = "Release",
+        Configuration = "S20210630",
         MSBuildSettings = new DotNetCoreMSBuildSettings()
     };
 
