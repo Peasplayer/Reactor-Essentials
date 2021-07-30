@@ -24,9 +24,9 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: Essentials.dll
-          path: Essentials/bin/S20210630/netstandard2.1/Essentials.dll
+          path: Essentials/bin/S20210630/netstandard2.1/Peasplayer.Essentials.dll
       
       - uses: actions/upload-artifact@v2
         with:
           name: Essentials.nupkg
-          path: Essentials/bin/S20210630/Essentials.*.nupkg
+          path: Essentials/bin/S20210630/Peasplayer.Essentials.*.nupkg
